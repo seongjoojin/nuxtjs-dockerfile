@@ -2,21 +2,12 @@
 
 > My cool Nuxt.js project
 
-## Build Setup
+## make docker image
 
-``` bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn run dev
-
-# build for production and launch server
-$ yarn run build
-$ yarn start
-
-# generate static project
-$ yarn run generate
+``` 
+docker build --tag <name>:<version> .
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+## run docker container
+
+docker run --name <container-name> -p 3000:3000 <image-name>:<version>
