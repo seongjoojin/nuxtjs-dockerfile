@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-dockerfile",
+  "version": "1.0.0",
+  "description": "My cool Nuxt.js project",
+  "author": "Seongjoo Jin",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.3.4",
+    "express": "^4.16.4",
+    "ant-design-vue": "^1.1.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
