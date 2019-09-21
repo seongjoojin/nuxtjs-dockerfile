@@ -1,5 +1,7 @@
 # nuxt-dockerfile
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/seongjoojin/nuxtjs-dockerfile.svg)](https://greenkeeper.io/)
+
 > My cool Nuxt.js project
 
 ## make docker image
