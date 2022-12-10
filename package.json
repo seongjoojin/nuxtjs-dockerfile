@@ -13,7 +13,7 @@
   "dependencies": {
     "cross-env": "^5.2.0",
     "nuxt": "^2.3.4",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "ant-design-vue": "^1.1.10"
   },
   "devDependencies": {
